@@ -1,4 +1,4 @@
 import textAnalyzer
 
-zdanie1 = AdvancedTextAnalyzer('Mam 1 dzien! Co za dzien')
-print(zdanie1.sentiment_analysis())
+zdanie1 = textAnalyzer.AdvancedTextAnalyzer('Mam dobry dzien! Co za dzien')
+print(f'Ocena zdania:"{zdanie1.show_text()}" - {zdanie1.sentiment_analysis()}')

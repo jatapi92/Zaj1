@@ -6,8 +6,8 @@ class TextAnalyzer:
     def __init__(self, text):
         self.text = text
 
-    def showText(self):
-        print(self.text)
+    def show_text(self):
+        return self.text
 
     def word_count(self):
         newText = replace_special_chars(self.text)
@@ -24,6 +24,7 @@ class TextAnalyzer:
         words = newText.split()
         uniqueWordsNo = len(set(words))
         return uniqueWordsNo
+
 
 class AdvancedTextAnalyzer(TextAnalyzer):
 
