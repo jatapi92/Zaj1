@@ -43,7 +43,3 @@ class AdvancedTextAnalyzer(TextAnalyzer):
 
 def replace_special_chars(text):
     return text.replace(',', '').replace('.', '').replace('!', '').replace('?', '').replace('/', '').replace(':', '').replace(';', '').replace('(', '').replace(')', '')
-
-
-zdanie1 = AdvancedTextAnalyzer('Mam 1 dzien! Co za dzien')
-print(zdanie1.sentiment_analysis())
