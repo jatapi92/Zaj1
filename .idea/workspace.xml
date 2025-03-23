@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea3274ed-f34f-4edd-9aa0-45a59772c61c" name="Changes" comment="add matrix.py and mainMAtrix.py, rename main.py to mainJSON.py">
+    <list default="true" id="ea3274ed-f34f-4edd-9aa0-45a59772c61c" name="Changes" comment="add localization">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainJSON.py" beforeDir="false" afterPath="$PROJECT_DIR$/zaj1/mainJSON.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainMatrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/zaj1/mainMatrix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/zaj1/matrix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modele.json" beforeDir="false" afterPath="$PROJECT_DIR$/zaj1/modele.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modeleai.py" beforeDir="false" afterPath="$PROJECT_DIR$/zaj1/modeleai.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,21 +22,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "jatapi92"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jatapi92&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/jatapi92/Zaj1.git",
-    "accountId": "8db11010-9ef5-45a3-a071-6937ceadc4d4"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jatapi92/Zaj1.git&quot;,
+    &quot;accountId&quot;: &quot;8db11010-9ef5-45a3-a071-6937ceadc4d4&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2uOC4YE1Zq4PdtuFLFJTUwwGNJH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -53,6 +48,7 @@
     "Python.mainMatrix.executor": "Run",
     "Python.modeleai.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
@@ -63,6 +59,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Studia\WysokiegoPoziomuII\Zaj1\zaj1" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -79,7 +80,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1742110042614</updated>
-      <workItem from="1742110043686" duration="7063000" />
+      <workItem from="1742110043686" duration="7092000" />
+      <workItem from="1742500333683" duration="132000" />
     </task>
     <task id="LOCAL-00001" summary="Create repository">
       <option name="closed" value="true" />
@@ -113,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742116605513</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add localization">
+      <option name="closed" value="true" />
+      <created>1742117539304</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742117539304</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,7 +134,8 @@
     <MESSAGE value="add modele.py and modele.json" />
     <MESSAGE value="add main.py" />
     <MESSAGE value="add matrix.py and mainMAtrix.py, rename main.py to mainJSON.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="add matrix.py and mainMAtrix.py, rename main.py to mainJSON.py" />
+    <MESSAGE value="add localization" />
+    <option name="LAST_COMMIT_MESSAGE" value="add localization" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Zaj1$modeleai.coverage" NAME="modeleai Coverage Results" MODIFIED="1742114642649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
