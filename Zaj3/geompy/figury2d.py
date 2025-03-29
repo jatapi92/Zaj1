@@ -1,16 +1,16 @@
 class Kwadrat:
 
-    def __init__(self, bokKwadratu):
-        self.bok = bokKwadratu
+    def __init__(self, bok_kwadratu):
+        self.bok = bok_kwadratu
         self.pole = self.bok ** 2
         self.obwod = 4 * self.bok
 
 
 class Prostokat:
 
-    def __init__(self, bokProstokata1, bokProstokata2):
-        self.bok1 = bokProstokata1
-        self.bok2 = bokProstokata2
+    def __init__(self, bok_prostokata1, bok_prostokata2):
+        self.bok1 = bok_prostokata1
+        self.bok2 = bok_prostokata2
         self.pole = self.bok1 * self.bok2
         self.obwod = 2 * self.bok1 + 2 * self.bok2
 
