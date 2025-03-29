@@ -1,6 +1,6 @@
 class Ksiazka:
     def __init__(self, tytul, autor, dostepna=True):
-        self.Tytul = tytul
+        self.tytul = tytul
         self.autor = autor
         self.dostepna = dostepna
 
@@ -15,17 +15,16 @@ class Biblioteka:
 
     def wypozycz_ksiazke(self, tytul):
         for ksiazka in self.lista_ksiazek:
-            if ksiazka.Tytul == tytul:
+            if ksiazka.tytul == tytul:
                 if ksiazka.dostepna:
                     ksiazka.dostepna = False
                     return f"Wypozyczono: {tytul}"
-                else:
-                    return f"Ksiazka {tytul} niedostepna"
+                return f"Ksiazka {tytul} niedostepna"
             return f"Brak ksiazki: {tytul}"
 
     def zwroc_ksiazke(self, tytul):
         for ksiazka in self.lista_ksiazek:
-            if ksiazka.Tytul == tytul:
+            if ksiazka.tytul == tytul:
                 ksiazka.dostepna = True
                 return f"Zwrocono: {tytul}"
         return f"Nie nalezy do biblioteki: {tytul}"
@@ -36,6 +35,7 @@ class Biblioteka:
             if ksiazka.dostepna:
                 dostepne.append(ksiazka.Tytul)
                 return dostepne
+        return None
 
 
 def main():
